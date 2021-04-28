@@ -16,6 +16,9 @@
     <li>
       <a href="#installation">Installation</a>
     </li>
+    <li>
+      <a href="#demo">Demo</a>
+    </li>
     </ol>
 </details>
 
@@ -24,7 +27,7 @@
 
 This is facial recognition based security system, which can be scaled to make an actuall survellince system.
 Whenever, there is person in front of the camera, the system detects the face and compares it with the dataset that is provided by the user, if the face matches the dataset,i.e, authentication successfull, it does nothing.
-But if it does not, then it updates the terminal with "[ALERT] Intrusion Detected.."
+But if it does not, then it updates the terminal with "[ALERT] Intrusion Detected.." and the image is saved in the intruder folder.
 
 ### Built With
 
@@ -65,3 +68,18 @@ I worked on this project on windows, but used ubuntu (on WSL) to train (using tr
    ```sh
    python -m recognizer.py
    ```
+   
+### Demo
+* Detects the authorized faces:
+![Authorized Face Detection]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/auth_face_rec.jpg
+
+* Also recognizes the unauthorized faces:
+![Un-authorized Face Detection]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/unauth_face_rec.jpg
+
+* Gives you an alert
+![Alert]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/alert.jpg
+
+* Saves the images in the intruder folder
+![Intruder Folder]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/intrusion_foler_screenshot.jpg
+![Intruder]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/intruder_image_sample.jpg
+    
