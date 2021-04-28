@@ -49,7 +49,7 @@ I worked on this project on windows, but used ubuntu (on WSL) to train (using tr
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kaustubh138/Face-Recognition-Security-System
+   git clone https://github.com/kaustubh138/Face-Recognition-Security-System.git
    ```
 2. Install required packages
    ```sh
