@@ -45,6 +45,8 @@ I worked on this project on windows, but used ubuntu (on WSL) to train (using tr
 
 * make sure no other program is using the camera sensor while running the recognizer.py, in that case it will thorugh an error.
 
+* The frame rate of video output is really choppy beacuse there is a lot that goes on behind each frame captured from the camera.
+
 ### Installation
 
 1. Clone the repo
@@ -55,7 +57,8 @@ I worked on this project on windows, but used ubuntu (on WSL) to train (using tr
    ```sh
    pip install -r requirments.txt
    ```
-3. Paste your facial images in the auth_dataset directory
+3. Paste your facial images in the auth_dataset directory, and rename them in sequence, if you are too lazy to do that run the renamer.py
+   (run the renamer.py only inside the auth_dataset file, else it will delete everything in the folder from which it is run) 
 4. Run gen_dataset.py:
    ```sh
    python -m gen_dataset.py
