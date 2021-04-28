@@ -57,7 +57,7 @@ I worked on this project on windows, but used ubuntu (on WSL) to train (using tr
    ```sh
    pip install -r requirments.txt
    ```
-3. Paste your facial images in the auth_dataset directory, and rename them in sequence, if you are too lazy to do that run the renamer.py
+3. Paste your facial images in the auth_dataset directory, and rename them in sequence, if you are too lazy to do that run the renamer.py changing the name Kaustubh to           YourName\n
    (run the renamer.py only inside the auth_dataset file, else it will delete everything in the folder from which it is run) 
 4. Run gen_dataset.py:
    ```sh
