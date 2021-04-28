@@ -71,15 +71,15 @@ I worked on this project on windows, but used ubuntu (on WSL) to train (using tr
    
 ### Demo
 * Detects the authorized faces:
-![Authorized Face Detection]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/auth_face_rec.jpg
+![Authorized Face Detection](https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/auth_face_rec.jpg)
 
 * Also recognizes the unauthorized faces:
-![Un-authorized Face Detection]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/unauth_face_rec.jpg
+![Un-authorized Face Detection](https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/unauth_face_rec.jpg)
 
 * Gives you an alert
-![Alert]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/alert.jpg
+![Alert](https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/alert.jpg)
 
 * Saves the images in the intruder folder
-![Intruder Folder]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/intrusion_foler_screenshot.jpg
-![Intruder]https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/intruder_image_sample.jpg
+![Intruder Folder](https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/intrusion_foler_screenshot.jpg)
+![Intruder](https://github.com/kaustubh138/Face-Recognition-Security-System/blob/main/demo/intruder_image_sample.jpg)
     
