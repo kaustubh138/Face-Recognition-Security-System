@@ -35,7 +35,7 @@ But if it does not, then it updates the terminal with "[ALERT] Intrusion Detecte
 * Caffe Neural Network
 * Modules:
   * OpenCV Python
-  * dlib
+  * dlib - ![How to install dlib?](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/)
   * facial-recognition
   * pickle
 
